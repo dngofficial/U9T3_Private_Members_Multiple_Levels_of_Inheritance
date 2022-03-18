@@ -14,6 +14,5 @@ public class Taxi extends Car {
         System.out.println("Is electric: " + isElectric());
         System.out.println("Discount applied: " + isDiscountApplied());
         System.out.println("Total Fare Collected: " + totalFareCollected);
-
     }
 }

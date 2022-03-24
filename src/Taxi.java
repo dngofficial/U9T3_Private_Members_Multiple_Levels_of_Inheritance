@@ -15,4 +15,12 @@ public class Taxi extends Car {
         System.out.println("Discount applied: " + isDiscountApplied());
         System.out.println("Total Fare Collected: " + totalFareCollected);
     }
+
+    @Override
+    public void printInfo()
+    {
+     super.printInfo();
+     System.out.println("Total fare collected: " + totalFareCollected);
+
+    }
 }

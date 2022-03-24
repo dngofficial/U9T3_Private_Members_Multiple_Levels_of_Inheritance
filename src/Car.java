@@ -44,4 +44,13 @@ public class Car extends Vehicle {
     }
   }
 
+  @Override
+  public void printInfo()
+  {
+    super.printInfo();
+    System.out.println("Electric?: " + electric);
+    System.out.println("Discount Applied?: " + discountApplied);
+
+  }
+
 }
